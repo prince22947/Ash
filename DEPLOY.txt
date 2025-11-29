@@ -1,0 +1,37 @@
+# Ash Music Bot - Minimal Deployment (0.1 CPU Optimized)
+
+## Render.com Deploy (Free Tier)
+
+### Step 1: Get Tokens
+. Discord: discord.com/developers/applications
+. Spotify: developer.spotify.com/dashboard
+
+### Step 2: Render Setup
+. New Web Service
+. Connect repo
+. Build: pip install -r requirements.txt
+. Start: python denli.py
+
+### Step 3: Environment Variables
+. DISCORD_TOKEN
+. SPOTIFY_CLIENT_ID
+. SPOTIFY_CLIENT_SECRET
+
+### Step 4: Discord Bot Intents
+. MESSAGE CONTENT (required)
+. SERVER MEMBERS (required)
+
+## Files Deployed (Minimal)
+. denli.py - Main bot (112KB)
+. requirements.txt - Dependencies
+. .env.example - Template
+. README.md - Quick guide
+. DEPLOY.txt - This file
+. cmds.txt - Commands
+
+## Notes
+. JSON files auto-created at runtime
+. FFmpeg auto-detected (system or local)
+. Heavy docs excluded for faster deploy
+
+Made by Raged solo

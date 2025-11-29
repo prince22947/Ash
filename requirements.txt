@@ -1,0 +1,8 @@
+discord.py>=2.3.0
+python-dotenv>=1.0.0
+edge-tts>=6.1.9
+yt-dlp>=2023.10.7
+spotipy>=2.23.0
+flask>=2.3.2
+flask-cors>=4.0.0
+requests>=2.31.0

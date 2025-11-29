@@ -1,0 +1,162 @@
+=== PART 1: Core, TTS, Fun & Reactions ===
+# Fun & Reactions
+!cuddle @user
+!hold @user
+!bite @user
+!lick @user
+!poke @user
+!boop @user
+!bonk @user
+!punch @user
+!kick @user
+!stab @user
+!throw @user
+!feed @user
+!offer @user
+!protect @user
+!carry @user
+!snuggle @user
+!scare @user
+!tickle @user
+!cry
+!laugh
+!blush
+!angry
+!mad
+!happy
+!sleepy
+!confused
+!wow
+!shy
+!sip
+!stare
+!panic
+!gasm
+!facepalm
+!boom
+!bankai
+!rasengan
+!chidori
+!gumgum
+!breathing
+!gear5
+!ultra
+!plusultra
+!titan
+!summon
+!isekai
+!transform
+!powerup
+# Ratings & Mini-Games
+!rate <thing>        # bot rates something 1–100
+!simprate @user
+!driprate @user
+!hotrate @user
+!iq @user
+!ship @user @user
+!who @user           # who would win, who’s cutest, etc.
+# Sound Effects
+!moan
+!scream
+!laughaudio
+!bassboost
+!nekoaudio
+!animegirl
+!animegirlgen
+!animescenegen
+!animeopening
+!animeship
+!animepower
+# Powers & Lore
+!demonrank
+!breathingstyle
+!quirk
+!stand
+# Scenes & Themes
+!villain @user      # turns tagged user into anime villain
+!theme @user        # gives user an anime theme song
+!battle @user        # creates mini anime battle
+!story <start>       # auto generates anime story
+!confess @user       # anime confession scene
+# Channel Locking
+!setmusicchannel [#channel]
+!removemusicchannel
+!setfunchannel [#channel]
+!removefunchannel
+
+=== PART 2: Anime Character Commands & Actions ===
+# Anime Character Commands (OP / Naruto / Bleach)
+# Usage: !<character> [@user] [action]
+# Examples:
+#   !nami @user cuddle
+#   !luffy punch
+#   !sasuke @user protect
+#   !ichigo powerup
+
+# One Piece
+!luffy [@user] [action]
+!zoro [@user] [action]
+!nami [@user] [action]
+!sanji [@user] [action]
+!usopp [@user] [action]
+!chopper [@user] [action]
+!robin [@user] [action]
+!franky [@user] [action]
+!brook [@user] [action]
+!jinbe [@user] [action]
+!ace [@user] [action]
+!sabo [@user] [action]
+!law [@user] [action]
+!boa [@user] [action]
+!mihawk [@user] [action]
+!shanks [@user] [action]
+
+# Naruto
+!naruto [@user] [action]
+!sasuke [@user] [action]
+!sakura [@user] [action]
+!kakashi [@user] [action]
+!hinata [@user] [action]
+!gaara [@user] [action]
+!itachi [@user] [action]
+!madara [@user] [action]
+!orochimaru [@user] [action]
+!tsunade [@user] [action]
+!jiraiya [@user] [action]
+
+# Bleach
+!ichigo [@user] [action]
+!rukia [@user] [action]
+!byakuya [@user] [action]
+!aizen [@user] [action]
+!kenpachi [@user] [action]
+!hitsugaya [@user] [action]
+!ulquiorra [@user] [action]
+!grimmjow [@user] [action]
+!renji [@user] [action]
+
+# Available actions
+# Social: cuddle, hug, kiss, slap, pat, hold, bite, lick, poke, boop,
+#         bonk, punch, kick, stab, throw, feed, offer, protect, carry,
+#         snuggle, scare, tickle
+# Emotions: dance, cry, laugh, blush, angry, mad, happy, sleepy,
+#           confused, wow, shy, sip, stare, panic, facepalm
+# Powers/Attacks: boom, bankai, rasengan, chidori, gumgum, breathing,
+#                 gear5, ultra, plusultra, titan, summon, isekai,
+#                 transform, powerup
+
+=== PART 3: Server Protection & Onboarding ===
+Slash Commands:
+/protection enable|disable  — toggle bad-word filtering; creates per-server log channel
+/setupjoin #channel [member_role] [bot_role]  — set welcome channel; create roles if missing
+/autorole [member_role] [bot_role]  — update auto-assigned roles later
+/lock [#channel]  — lock a channel (Manage Channels required)
+
+Behavior:
+- Filtering active only after /protection enable
+- Incidents logged to #ash-logs (one per server)
+- Level 3 bad words send DM warnings; no kicks/bans
+- Auto role on join: bots → Bot role, members → Member role
+- Configuration saved to music/bot_data.json (persists after restart)
+- Welcome message sent in the configured channel
+

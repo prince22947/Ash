@@ -1,0 +1,65 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.cache
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Unnecessary files
+denli_temp.py
+error_report.txt
+ifsomix.txt
+announcement.txt
+music/pdf.py
+
+# Heavy documentation (not needed for runtime)
+ASH_BOT_FEATURES.txt
+announcement_short.txt
+GIT_PUSH_CHECKLIST.txt
+READY_TO_PUSH.txt
+OPTIMIZED_DEPLOY.txt
+
+# FFmpeg executable (download separately)
+ffmpeg.exe
+
+# Music temp files
+music/*.mp3
+music/temp_*
+temp_tts/
+
+# Keep JSON files minimal (they'll be created at runtime if missing)
+music/bot_data.json
+music/channel_settings.json
+music/user_songs.json
